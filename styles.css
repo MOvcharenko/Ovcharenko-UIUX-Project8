@@ -19,6 +19,12 @@ header, footer {
     font-size: 2em;
     text-transform: uppercase;
     border: 10px dashed yellow;
+    animation: blink 0.01s infinite linear;
+}
+
+@keyframes blink {
+    0% { color:#ffcc00 }
+    100% { color: black }
 }
 
 .container {
